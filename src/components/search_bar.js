@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class SearchBar extends Component {
 
   constructor(props) {
@@ -18,7 +17,6 @@ class SearchBar extends Component {
     this.setState({ term });
     this.props.onSearchTermChange(term);
   }
-
 
   // Each component class needs a render function that returns some JSX!
   render() {
